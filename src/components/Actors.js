@@ -10,7 +10,7 @@ const Actors = () => {
           <h3>{actor.name}</h3>
           <ol>
             {actor.movies.map(movie =>
-              <li className="actor" key={`${actor.name}__${movie}`}>
+              <li key={`${actor.name}__${movie}`}>
                 {movie}
               </li>
             )}
