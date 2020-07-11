@@ -20,7 +20,6 @@ describe('Directors', () => {
   })
 
   it('should render one <h1 /> first, inside of the <div />', () => {
-    expect(wrapper.children().first().type()).to.equal('h1');
   });
 
   it("should render 'Directors Page' inside of the <h1 />", () => {
